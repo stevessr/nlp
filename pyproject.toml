@@ -18,11 +18,13 @@ dependencies = [
     "scikit-learn>=1.9.0",
     "spacy>=3.8.16",
     "tqdm>=4.70.0",
+    "transformers>=5.16.1",
 ]
 
 [project.scripts]
 nlp = "nlp:main"
 text-frequency = "nlp.text_frequency:main"
+auto-tokenizer = "nlp.auto_tokenizer:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]

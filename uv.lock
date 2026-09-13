@@ -1462,6 +1462,7 @@ dependencies = [
     { name = "scikit-learn" },
     { name = "spacy" },
     { name = "tqdm" },
+    { name = "transformers" },
 ]
 
 [package.metadata]
@@ -1476,6 +1477,7 @@ requires-dist = [
     { name = "scikit-learn", specifier = ">=1.9.0" },
     { name = "spacy", specifier = ">=3.8.16" },
     { name = "tqdm", specifier = ">=4.70.0" },
+    { name = "transformers", specifier = ">=5.16.1" },
 ]
 
 [[package]]
