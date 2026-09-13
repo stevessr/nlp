@@ -25,6 +25,7 @@ dependencies = [
 nlp = "nlp:main"
 text-frequency = "nlp.text_frequency:main"
 auto-tokenizer = "nlp.auto_tokenizer:main"
+text-clean = "nlp.text_clean:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
